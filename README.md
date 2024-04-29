@@ -1,0 +1,2 @@
+# EarthMind Docs
+
