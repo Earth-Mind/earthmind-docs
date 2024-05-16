@@ -19,6 +19,7 @@ const config: DocsThemeConfig = {
             </span>
         </div>
     ),
+    logoLink: "/",
     project: {
         link: PROJECT_CONFIG.repository,
     },
@@ -29,6 +30,27 @@ const config: DocsThemeConfig = {
     footer: {
         text: PROJECT_CONFIG.footer,
     },
+    head: (
+        <>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta property="og:title" content={PROJECT_CONFIG.name} />
+            <meta property="og:description" content={PROJECT_CONFIG.description} />
+            {/* Favicons */}
+            <meta name="msapplication-TileColor" content="#da532c" />
+            <meta name="theme-color" content="#ffffff" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="/favicons/site.webmanifest" />
+            <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+        </>
+    ),
+    useNextSeoProps: () => {
+        return {
+            titleTemplate: `${PROJECT_CONFIG.name} Docs - %s`,
+        };
+    },
 }
 
 export default config
+
