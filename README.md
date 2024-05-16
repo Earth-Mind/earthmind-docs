@@ -4,7 +4,7 @@
 
 ```bash
 
-$ git clone <TODO>
+$ git clone https://github.com/earth-mind/docs.git
 
 $ nvm use
 
