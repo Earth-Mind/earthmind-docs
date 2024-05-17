@@ -8,7 +8,13 @@ The EarthMind protocol allows any protocol to delegate their governance decision
 
 At a general level, the flow is as follows:
 
-![How it works simple](/images/how-it-works-simple.jpg)
+import CustomImage from '../components/CustomImage';
+
+<CustomImage
+  src="/images/how-it-works-simple.jpg"
+  alt="How it works simple"
+  fetchpriority="high"
+/>
 
 Any protocol that implements the EarthMind client will delegate their governance decisions to the EarthMind network, which is a subnet in the [Bittensor] Blockchain that is securely connected via an EigenLayer AVS.
 
