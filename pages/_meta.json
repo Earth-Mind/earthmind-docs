@@ -8,6 +8,14 @@
     "roadmap": "Roadmap",
     "vision": "Vision",
     "faq": "FAQ",
+    "--- separator10": {
+        "title": "Protocol Overview",
+        "type": "separator"
+    },
+    "architecture": "Architecture",
+    "how-it-works": "How it Works",
+    "ecosystem-participants": "Ecosystem Participants",
+    "consensus": "Consensus",
     "about": {
         "title": "About",
         "type": "page"
@@ -27,13 +35,18 @@
         "title": "",
         "type": "separator"
     },
-    "developers": "Developers",
+    "components": "Components",
     "--- separator4": {
         "title": "",
         "type": "separator"
     },
-    "validating-and-mining": "Validating and Mining",
+    "developers": "Developers",
     "--- separator5": {
+        "title": "",
+        "type": "separator"
+    },
+    "validating-and-mining": "Validating and Mining",
+    "--- separator6": {
         "title": "",
         "type": "separator"
     },
