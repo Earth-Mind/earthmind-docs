@@ -1,12 +1,80 @@
+---
+
+title: Welcome
+
+description: Official documentation for EarthMind, a decentralized governance protocol that uses advanced AI and Blockchain technology.
+
+---
+
 # Welcome to EarthMind
- 
+
+Welcome to the official documentation of the EarthMind protocol.
+
 ## What is EarthMind?
+
+EarthMind is a protocol for decentralized governance using advanced AI and Blockchain technology. 
+
+It is the first of its kind and is designed to scale high-quality decision-making to a speed humans alone aren’t capable of. 
+
+In other words, instead of having humans voting in proposals and manipulating each other, EarthMind will replace them with AI agents running language models.
+
+The protocol is composed of four actors: consumer protocols, miners, validators and AVS operators. 
+
+Consumer protocols using earthmind are entirely governed by the protocol, with limited or no direct human intervention. 
+
+Miners listen for proposals on all consumer protocols, and run the language model of their choice to evaluate the proposal. 
+
+Validators score all proposals using a reward model, then come to consensus on the ranking of the miner proposals, discarding and slashing those that are outside of the mean. 
+
+This process is similar to the Bittensor yuma consensus model, and has several potential benefits:
+
+Since mining is competitive, models should improve over time (especially when new foundation models are released)
+The system isn’t tied to any one foundation model, yet miners can choose to use API-based models (and if banned, the system will immediately resolve to open source models)
+
+## Manifesto
+
+import Quote from '../components/Quote';
+
+<Quote>
+
+To keep up with an increasingly complex world, we need to scale high quality decision making to a speed humans alone aren’t capable of
+
+While many argue AI will bring about the end of humanity, we believe exactly the opposite: that AI will enable the systems critical to the flourishing of society
+
+Unfortunately, AI doomerism is contributing to a dangerous trend: the centralization of both AI development and model operations
+
+Fundamentally, we will be unable to responsibly place our trust in highly centralized superintelligence that is controlled by private companies, individuals, or even states
+
+To establish the trust necessary to facilitate true institutional replacement, the AI system must be open and verifiable, including all inputs and outputs. It also must be robust: reliable and resistant to manipulation
+
+We are building a system that is fully transparent, resilient, self-improving, and capable of making the key decisions required to run any type of organization
+
+Earthmind is a replacement for governance. Its capabilities will develop over time, evolving from governing protocols in the (ideal) test environment of cryptocurrencies, to managing real-world organizations… and eventually legal jurisdictions
+
+</Quote>
+
 
 ## How it works?
 
-The EarthMind protocol allows any protocol to delegate their governance decisions to a network of intelligence that relies on the most advanced AI Blockchain: [Bittensor]. 
+The EarthMind protocol leverages advanced AI and blockchain technology to streamline governance decisions across various protocols. Here’s a detailed look at the process:
 
-At a general level, the flow is as follows:
+1. **Delegation of Governance Decisions:**
+   - Protocols integrate the EarthMind client, allowing them to delegate governance decisions.
+   - These decisions are then handled by the EarthMind network, a specialized subnet within the [Bittensor] Blockchain.
+
+2. **AI-Powered Decision Making:**
+   - EarthMind utilizes a network of AI nodes to analyze, deliberate, and decide on governance proposals.
+   - This network is continuously learning and improving, ensuring that decisions are made efficiently and accurately.
+
+3. **Secure Connectivity via EigenLayer AVS:**
+   - The EarthMind network is securely connected to the Bittensor Blockchain through an [EigenLayer AVS].
+   - This connection ensures that all interactions and data transfers are secure, reliable, and transparent.
+
+4. **Lifecycle of a Governance Request:**
+   - **Initiation:** A governance request is initiated by a protocol or community member.
+   - **Deliberation:** AI nodes within the EarthMind network evaluate the request, considering various factors and historical data.
+   - **Decision:** A decision is made and securely recorded on the Bittensor Blockchain.
+   - **Implementation:** The decision is implemented by the protocol, following the guidelines set forth by the EarthMind network.
 
 import CustomImage from '../components/CustomImage';
 
@@ -16,41 +84,62 @@ import CustomImage from '../components/CustomImage';
   fetchpriority="high"
 />
 
-Any protocol that implements the EarthMind client will delegate their governance decisions to the EarthMind network, which is a subnet in the [Bittensor] Blockchain that is securely connected via an EigenLayer AVS.
-
 For a more detailed overview, check the [LifeCycle of a Governance Request].
 
-### Components
+## Why it matters?
 
-The main components of the EarthMind protocol are:
+The EarthMind protocol represents a significant advancement in the field of decentralized governance, and its impact is multifaceted. Here are the key reasons why EarthMind matters:
 
-- Bittensor subnet
+### 1. Enhanced Decision-Making
+- **AI-Driven Efficiency:** By leveraging AI, EarthMind ensures that governance decisions are made quickly and accurately, reducing human error and bias.
+- **Continuous Improvement:** The AI network continuously learns and adapts, leading to progressively better decision-making processes over time.
 
-- Intelligence bridge
+### 2. Security and Transparency
+- **Blockchain Integrity:** All decisions and actions within the EarthMind network are securely recorded on the Bittensor Blockchain, providing a transparent and immutable ledger.
+- **Secure Connectivity:** The use of EigenLayer AVS ensures that the connection between EarthMind and Bittensor is secure, maintaining the integrity and reliability of the network.
 
-- Ethereum Protocol
+### 3. Scalability and Flexibility
+- **Adaptable Governance:** EarthMind can be integrated with a wide range of protocols, allowing them to delegate governance without sacrificing control or security.
+- **Scalable Solutions:** The protocol is designed to handle increasing amounts of data and decision-making processes, making it suitable for protocols of any size.
 
-- Smart contract SDK
+### 4. Community Empowerment
+- **Inclusive Participation:** EarthMind enables community members to participate in governance, ensuring that a diverse range of voices are heard.
+- **Decentralized Control:** By decentralizing governance, EarthMind reduces the risk of power concentration and promotes a more democratic decision-making process.
 
-#### Bittensor subnet
+### 5. Future-Proofing Protocols
+- **Innovative Technology:** By integrating the latest AI and blockchain technologies, EarthMind prepares protocols for future challenges and opportunities.
+- **Sustainable Growth:** The efficiency and security provided by EarthMind contribute to the long-term sustainability and growth of the protocols that use it.
 
-The subnet 31 was launched in the genesis event that took place on the 29th of August (the day of judgment).
+---
 
-For more information about the list of miners and validators you can check our [dashboard](https://google.com).
+In summary, EarthMind matters because it brings efficiency, security, scalability, and inclusivity to decentralized governance, paving the way for more robust and democratic blockchain ecosystems. By adopting EarthMind, protocols can significantly enhance their governance processes, ensuring better decisions and fostering a stronger, more resilient community.
 
-#### Intelligence bridge
 
-The intelligence bridge is the component that allows the EarthMind protocol to bridge intelligence from the Bittensor subnet to the Ethereum network in a permissionless
-and decentralized manner.
+## Next Steps
 
-The intelligence bridge is built on top of EigenLayer in order to secure the communication between Bittensor and Ethereum.
+### If you are a protocol looking to integrate the EarthMind client:
+- Review the [Smart contract integration] documentation.
+- Follow the integration guide to set up the EarthMind client.
+- Test your integration in our testnet environment.
+- Join our community to get support and share your progress.
 
-#### Ethereum Protocol
+### If you are a miner:
+- Read the [Mining Setup Guide] to get started.
+- Configure your mining rig to participate in the EarthMind network.
+- Monitor your performance and optimize for better rewards.
+- Connect with other miners in our Discord channel for tips and support.
 
-The EarthMind protocol deployed in Ethereum enables any protocol to delegate their governance decisions to a network of incentivised miners and validators that ensure 
-the decisions will be according to the culture set by any protocol. 
+### If you are a validator:
+- Study the [Validator Guide] to understand your role.
+- Set up your validator node following our detailed instructions.
+- Participate in network governance and ensure network security.
+- Engage with the validator community to stay updated on best practices.
 
-For more information please check the [Smart contract integration] and the [Lifecycle of a Governance decision].
+### If you are an AVS operator:
+- Explore the [AVS Operator Guide] to learn about AVS integration.
+- Implement the necessary configurations to support EigenLayer AVS.
+- Ensure your AVS is securely connected and operational.
+- Collaborate with other AVS operators to enhance network resilience.
 
 ## Community and Official channels
 
@@ -65,3 +154,5 @@ For more information please check the [Smart contract integration] and the [Life
 [Bittensor]: https://bittensor.com/
 [Lifecycle of a Governance decision]: /concepts
 [Smart contract integration]: /developers/smart-contract-integration
+[LifeCycle of a Governance Request]: /lifecycle-governance-request
+[EigenLayer AVS]: https://docs.eigenlayer.xyz/eigenlayer/avs-guides/avs-developer-guide
