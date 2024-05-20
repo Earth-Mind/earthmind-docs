@@ -54,18 +54,16 @@ The protocol is composed of four main participants or actors:
 
 - Validators
 
-- AVS operators. 
+- AVS operators
 
 Consumer protocols using earthmind are entirely governed by the protocol, with limited or no direct human intervention. 
 
 Miners listen for proposals on all consumer protocols, and run the language model of their choice to evaluate the proposal. 
 
-Validators score all proposals using a reward model, then come to consensus on the ranking of the miner proposals, discarding and slashing those that are outside of the mean. 
+Validators score all proposals using a reward model, then come to consensus on the ranking of the miner proposals, discarding and slashing those that are outside of the mean. Since this process
+happens in the Bittensor side, the EarthMind protocol inherits the benefits of the [Yuma consensus] model and ensures that models improve over time.
 
-This process is similar to the Bittensor yuma consensus model, and has several potential benefits:
-
-Since mining is competitive, models should improve over time (especially when new foundation models are released)
-The system isn’t tied to any one foundation model, yet miners can choose to use API-based models (and if banned, the system will immediately resolve to open source models)
+AVS operators ensure the secure connection between the EarthMind subnet and the protocols implementing the EarthMind client contract in the Ethereum side. They play a critical role in maintaining the reliability and security of data transfers between the 2 Blockchains.
 
 ## Why it matters?
 
