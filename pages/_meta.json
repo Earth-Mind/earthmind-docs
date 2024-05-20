@@ -7,7 +7,6 @@
     "features": "Features",
     "roadmap": "Roadmap",
     "vision": "Vision",
-    "faq": "FAQ",
     "--- separator10": {
         "title": "Protocol Overview",
         "type": "separator"
@@ -16,6 +15,7 @@
     "how-it-works": "How it Works",
     "ecosystem-participants": "Ecosystem Participants",
     "consensus": "Consensus",
+    "lifecycle-governance-request": "Lifecycle of a Governance Request",
     "about": {
         "title": "About",
         "type": "page"
