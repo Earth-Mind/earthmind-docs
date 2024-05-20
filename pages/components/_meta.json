@@ -1,6 +1,5 @@
 {
     "earthmind-client-contract": "EarthMind Client Contract",
     "bittensor-subnet": "Bittensor Subnet",
-    "intelligence-bridge": "Intelligence Bridge",
-    "avs-network": "AVS Network"
+    "intelligence-bridge": "Intelligence Bridge"
 }
