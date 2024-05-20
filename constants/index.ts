@@ -6,4 +6,5 @@ export const PROJECT_CONFIG = {
     repository: 'https://github.com/earth-mind/docs',
     description: 'Documentation of the EarthMind project',
     website: 'https://earthmind.tech',
+    blog: 'https://blog.earthmind.tech',
 }
