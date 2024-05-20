@@ -7,30 +7,13 @@
     "features": "Features",
     "roadmap": "Roadmap",
     "vision": "Vision",
-    "--- separator10": {
+    "--- separator2": {
         "title": "Protocol Overview",
         "type": "separator"
     },
     "architecture": "Architecture",
     "how-it-works": "How it Works",
-    "ecosystem-participants": "Ecosystem Participants",
-    "consensus": "Consensus",
     "lifecycle-governance-request": "Lifecycle of a Governance Request",
-    "about": {
-        "title": "About",
-        "type": "page"
-    },
-    "contact": {
-        "title": "Contact ↗",
-        "type": "page",
-        "href": "https://twitter.com/earthmind",
-        "newWindow": true
-    },
-    "--- separator2": {
-        "title": "",
-        "type": "separator"
-    },
-    "concepts": "Protocol Concepts",
     "--- separator3": {
         "title": "",
         "type": "separator"
@@ -45,10 +28,20 @@
         "title": "",
         "type": "separator"
     },
-    "validating-and-mining": "Validating and Mining",
+    "guides": "Guides",
     "--- separator6": {
         "title": "",
         "type": "separator"
     },
-    "security": "Security"
+    "security": "Security",
+    "about": {
+        "title": "About",
+        "type": "page"
+    },
+    "contact": {
+        "title": "Contact ↗",
+        "type": "page",
+        "href": "https://twitter.com/earthmind",
+        "newWindow": true
+    }
 }
