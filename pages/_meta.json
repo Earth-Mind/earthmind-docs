@@ -33,15 +33,5 @@
         "title": "",
         "type": "separator"
     },
-    "security": "Security",
-    "about": {
-        "title": "About",
-        "type": "page"
-    },
-    "contact": {
-        "title": "Contact ↗",
-        "type": "page",
-        "href": "https://twitter.com/earthmind",
-        "newWindow": true
-    }
+    "security": "Security"
 }

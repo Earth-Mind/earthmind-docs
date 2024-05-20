@@ -27,9 +27,6 @@ const config: DocsThemeConfig = {
         link: PROJECT_CONFIG.discord,
     },
     docsRepositoryBase: PROJECT_CONFIG.repository,
-    footer: {
-        text: PROJECT_CONFIG.footer,
-    },
     head: (
         <>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,6 +42,17 @@ const config: DocsThemeConfig = {
             <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
         </>
     ),
+    footer: {
+        text: (
+            <span>
+                {new Date().getFullYear()} ©{' '}
+                <a href={PROJECT_CONFIG.website} target="_blank">
+                    {PROJECT_CONFIG.footer}
+                </a>
+                . All Rights Reserved.
+            </span>
+        )
+    },
     useNextSeoProps: () => {
         return {
             titleTemplate: `${PROJECT_CONFIG.name} Docs - %s`,
