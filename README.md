@@ -2,8 +2,8 @@
 
 ## Pre Requisites
 
-[NVM](https://github.com/nvm-sh/nvm)
-[PNPM](https://pnpm.io/installation)
+- [NVM](https://github.com/nvm-sh/nvm)
+- [PNPM](https://pnpm.io/installation)
 
 ## Getting Started
 
